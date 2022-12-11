@@ -46,7 +46,7 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "kyazdani42/nvim-web-devicons" -- icons for nvim-tree, bufferline, etc...
 
-  use "tamelion/neovim-molokai"  -- molokai colorscheme:
+  use "tamelion/neovim-molokai" -- molokai colorscheme:
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -55,7 +55,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lua" -- nvim specific Lua completions
-  use "hrsh7th/cmp-nvim-lsp"  -- LSP completions
+  use "hrsh7th/cmp-nvim-lsp" -- LSP completions
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
@@ -71,11 +71,11 @@ return packer.startup(function(use)
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
-  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }  -- native sorter for telescope
+  use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' } -- native sorter for telescope
 
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
-  use { "p00f/nvim-ts-rainbow" }  -- rainbow parentheses
+  use { "p00f/nvim-ts-rainbow" } -- rainbow parentheses
 
   -- Autopairs, integrates with both cmp and treesitter
   use "windwp/nvim-autopairs"
