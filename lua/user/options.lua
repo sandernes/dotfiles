@@ -40,6 +40,7 @@ local options = {
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
   textwidth = 80,
   colorcolumn = "+1",                      -- highlight 81th column
+  formatoptions = "qrn1",
 }
 
 vim.opt.shortmess:append "c"
@@ -50,4 +51,3 @@ end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
-vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
