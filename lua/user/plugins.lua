@@ -106,6 +106,11 @@ return packer.startup(function(use)
   -- alternate file projections
   use "tpope/vim-projectionist"
 
+  -- testing
+  use "nvim-neotest/neotest"
+  use "nvim-neotest/neotest-python"
+  use "nvim-neotest/neotest-go"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

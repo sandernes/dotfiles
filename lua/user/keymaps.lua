@@ -45,6 +45,12 @@ keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 keymap("n", "<F9>", ":AV<cr>", opts)
 
 
+-- test
+keymap("n", "<leader>m", ":TestNearest<cr>", opts)
+keymap("n", "<leader>f", ":TestFile<cr>", opts)
+keymap("n", "<leader>s", ":TestSummaryToggle<cr>", opts)
+keymap("n", "<leader>o", ":TestOutputOpen<cr>", opts)
+
 
 -- Insert --
 -- Press jk fast to enter
