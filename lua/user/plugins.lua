@@ -103,6 +103,9 @@ return packer.startup(function(use)
   -- indentline
   use "lukas-reineke/indent-blankline.nvim"
 
+  -- alternate file projections
+  use "tpope/vim-projectionist"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
