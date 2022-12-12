@@ -38,6 +38,7 @@ local options = {
   scrolloff = 8,                           -- is one of my fav
   sidescrolloff = 8,
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
+  guicursor = "n-v-c-i:block",             -- show block cursor in all modes
   textwidth = 80,
   colorcolumn = "+1",                      -- highlight 81th column
   formatoptions = "qrn1",
