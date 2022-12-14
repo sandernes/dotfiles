@@ -1,7 +1,13 @@
-local colorscheme = "molokai"
-
-local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
+local status_ok, kanagawa = pcall(require, "kanagawa")
 if not status_ok then
-  vim.notify("colorscheme " .. colorscheme .. " not found!")
   return
 end
+
+kanagawa.setup({
+  -- disable italics
+  commentStyle = { italic = false },
+  keywordStyle = { italic = false },
+  variablebuiltinStyle = { italic = false },
+})
+
+vim.cmd "colorscheme kanagawa"

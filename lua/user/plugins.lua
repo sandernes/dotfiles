@@ -47,7 +47,8 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons" -- icons for nvim-tree, bufferline, lualine, etc...
   use "lewis6991/impatient.nvim" -- speed up nvim loading
 
-  use "tamelion/neovim-molokai" -- molokai colorscheme:
+  -- colorschemes
+  use "rebelot/kanagawa.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
