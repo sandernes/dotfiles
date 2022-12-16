@@ -9,6 +9,10 @@ local diagnostics = null_ls.builtins.diagnostics
 null_ls.setup {
   debug = false,
   sources = {
+    -- go
+    formatting.gofmt,
+    formatting.goimports,
+
     -- typescript
     formatting.prettier,
 

@@ -1,4 +1,5 @@
 local servers = {
+  "gopls",
   "sumneko_lua",
   "pyright",
   "jsonls",
