@@ -8,6 +8,8 @@ local diagnostics = null_ls.builtins.diagnostics
 
 null_ls.setup {
   debug = false,
+  on_attach = require("user.lsp.handlers").on_attach,
+  capabilities = require("user.lsp.handlers").capabilities,
   sources = {
     -- go
     formatting.gofmt,
