@@ -22,6 +22,7 @@ null_ls.setup {
     -- diagnostics.flake8,  -- mostly duplicates of what pyright provides
     diagnostics.mypy,
     formatting.black,
+    formatting.isort,
 
     -- lua
     formatting.stylua,
