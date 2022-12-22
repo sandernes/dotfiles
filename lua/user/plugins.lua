@@ -111,6 +111,7 @@ return packer.startup(function(use)
   use "nvim-neotest/neotest"
   use "nvim-neotest/neotest-python"
   use "nvim-neotest/neotest-go"
+  use "issafalcon/neotest-dotnet"
 
   -- editorconfig
   use "gpanders/editorconfig.nvim"

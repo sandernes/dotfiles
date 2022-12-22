@@ -5,6 +5,7 @@ end
 
 neotest.setup({
   adapters = {
+    require("neotest-dotnet"),
     require("neotest-python"),
     require("neotest-go")
   },
