@@ -96,7 +96,7 @@ local function lsp_format_on_write(client, bufnr)
         vim.lsp.buf.format({
           bufnr = bufnr,
           filter = function(c)
-            return c.name == "null-ls"
+            return c.name == "fsautocomplete" or c.name == "null-ls"
           end,
         })
       end,
