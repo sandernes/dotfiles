@@ -24,6 +24,9 @@ null_ls.setup {
     formatting.black,
     formatting.isort,
 
+    -- terraform
+    formatting.terraform_fmt,
+
     -- lua
     formatting.stylua,
   },
