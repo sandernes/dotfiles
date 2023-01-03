@@ -42,10 +42,6 @@ local options = {
   textwidth = 80,
   colorcolumn = "+1", -- highlight 81th column
   formatoptions = "qrn1",
-
-  -- folding
-  foldcolumn = '0',
-  foldenable = true,
 }
 
 vim.opt.shortmess:append "c"
