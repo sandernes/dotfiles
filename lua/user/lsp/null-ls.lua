@@ -15,6 +15,9 @@ null_ls.setup {
     formatting.gofmt,
     formatting.goimports,
 
+    -- markdown
+    diagnostics.markdownlint,
+
     -- typescript
     formatting.prettier,
 
