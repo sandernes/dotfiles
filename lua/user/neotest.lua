@@ -8,6 +8,10 @@ neotest.setup({
     require("neotest-python"),
     require("neotest-go")
   },
+  quickfix = {
+    enabled = true,
+    open = false,
+  }
 })
 
 vim.cmd [[ command! TestNearest execute 'lua require("neotest").run.run()' ]]
