@@ -21,6 +21,7 @@
       path: config/zshrc
       force: true
 
+    ~/.editorconfig: config/editorconfig
 
     # git
     ~/.gitconfig: config/gitconfig
