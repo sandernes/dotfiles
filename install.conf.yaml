@@ -12,5 +12,9 @@
     # shell
     ~/.zshrc: config/zshrc
 
+    # git
+    ~/.gitconfig: config/gitconfig
+    ~/.gitignore: config/gitignore
+
     # nvim
     ~/.config/nvim: nvim
