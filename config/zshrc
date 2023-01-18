@@ -92,6 +92,8 @@ zplug load
 
 # User configuration
 
+export LESS="--no-init --quit-if-one-screen --raw-control-chars"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
