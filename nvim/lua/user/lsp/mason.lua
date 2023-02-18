@@ -1,7 +1,7 @@
 local servers = {
   "fsautocomplete",
   "gopls",
-  "sumneko_lua",
+  "lua_ls",
   "pyright",
   "jsonls",
   "yamlls",
