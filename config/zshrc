@@ -93,6 +93,7 @@ zplug load
 # User configuration
 
 export LESS="--no-init --quit-if-one-screen --raw-control-chars"
+export PATH=$HOME/.local/bin:$PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
