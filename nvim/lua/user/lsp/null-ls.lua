@@ -24,6 +24,7 @@ null_ls.setup {
     -- python
     -- diagnostics.flake8,  -- mostly duplicates of what pyright provides
     diagnostics.mypy,
+    diagnostics.ruff,
     formatting.black,
     formatting.isort,
 
