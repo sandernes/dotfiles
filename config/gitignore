@@ -10,3 +10,6 @@ node_modules/
 
 # asdf
 .tool-versions
+
+# projections
+.projections.json
