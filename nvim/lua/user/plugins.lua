@@ -119,6 +119,11 @@ return packer.startup(function(use)
   -- fsharp syntax highlighting
   use "adelarsq/neofsharp.vim"
 
+  -- code action menu
+  use { "weilbith/nvim-code-action-menu", cmd = "CodeActionMenu" }
+  -- lightbulb indication of available code actions
+  use {"kosayoda/nvim-lightbulb", requires = "antoinemadec/FixCursorHold.nvim",}
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
