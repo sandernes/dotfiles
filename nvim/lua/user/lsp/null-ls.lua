@@ -22,11 +22,8 @@ null_ls.setup {
     formatting.prettier,
 
     -- python
-    -- diagnostics.flake8,  -- mostly duplicates of what pyright provides
     diagnostics.mypy,
-    diagnostics.ruff,
     formatting.black,
-    formatting.isort,
 
     -- terraform
     formatting.terraform_fmt,

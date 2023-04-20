@@ -3,6 +3,7 @@ local servers = {
   "gopls",
   "lua_ls",
   "pyright",
+  "ruff_lsp",
   "jsonls",
   "yamlls",
 }
