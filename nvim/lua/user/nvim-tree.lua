@@ -11,9 +11,20 @@ if not config_status_ok then
   return
 end
 
+local api_status_ok, api = pcall(require, "nvim-tree.api")
+if not api_status_ok then
+  return
+end
+
+
+local function on_attach(bufnr)
+  api.config.mappings.default_on_attach(bufnr)
+end
+
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
 nvim_tree.setup {
+  on_attach = on_attach,
   disable_netrw = true,
   hijack_netrw = true,
   open_on_setup = false,
