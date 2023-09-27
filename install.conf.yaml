@@ -29,3 +29,6 @@
 
     # nvim
     ~/.config/nvim: nvim
+
+    # kitty
+    ~/.config/kitty: kitty
