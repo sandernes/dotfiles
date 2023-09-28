@@ -102,7 +102,7 @@ return packer.startup(function(use)
   use "akinsho/toggleterm.nvim"
 
   -- indentline
-  use "lukas-reineke/indent-blankline.nvim"
+  use {"lukas-reineke/indent-blankline.nvim", tag="v2.20.8"}
 
   -- alternate file projections
   use "tpope/vim-projectionist"
