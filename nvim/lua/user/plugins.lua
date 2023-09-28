@@ -89,7 +89,7 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
 
   -- nvim-tree explorer
-  use "kyazdani42/nvim-tree.lua"
+  use "nvim-tree/nvim-tree.lua"
 
   -- bufferline
   use "akinsho/bufferline.nvim"
