@@ -120,7 +120,14 @@ return packer.startup(function(use)
   use "adelarsq/neofsharp.vim"
 
   -- code action menu
-  use { "weilbith/nvim-code-action-menu", cmd = "CodeActionMenu" }
+  -- use { "weilbith/nvim-code-action-menu", cmd = "CodeActionMenu" }
+  use {
+    "aznhe21/actions-preview.nvim",
+    config = function()
+      vim.keymap.set({ "v", "n" }, "<leader>ca", require("actions-preview").code_actions)
+    end,
+  }
+
   -- lightbulb indication of available code actions
   use {"kosayoda/nvim-lightbulb", requires = "antoinemadec/FixCursorHold.nvim",}
 
