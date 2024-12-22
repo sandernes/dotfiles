@@ -108,7 +108,12 @@ return packer.startup(function(use)
   use "tpope/vim-projectionist"
 
   -- testing
-  use "nvim-neotest/neotest"
+  use {"nvim-neotest/neotest",
+    requires = {
+      "nvim-neotest/nvim-nio",
+      "antoinemadec/FixCursorHold.nvim",
+    }
+  }
   use "nvim-neotest/neotest-python"
   use "nvim-neotest/neotest-go"
   use "issafalcon/neotest-dotnet"
